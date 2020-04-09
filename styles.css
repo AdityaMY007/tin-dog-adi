@@ -1,0 +1,153 @@
+body {
+  font-family: "Montserrat-black";
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Montserrat-bold";
+}
+p{
+  color: #8f8f8f;
+}
+
+/* title section */
+.main-heading{
+
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 0 8rem;
+}
+
+.top-padd {
+  padding-top: 2rem;
+}
+
+/*
+fluid container section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+  #brand{
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left:0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width:50%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 3rem;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.textimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing_col {
+  padding: 3% 2%;
+}
+@media (max-width:1028px)
+{
+  #title
+  {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to actin */
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color:#fff;
+}
+/* footer section */
+#footer
+{
+  padding: 7% 15%;
+  text-align: center;
+}
+.imf
+{
+  padding: 20px 10px;
+}
